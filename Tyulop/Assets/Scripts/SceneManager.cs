@@ -19,15 +19,15 @@ public class SceneManager : MonoBehaviour
     {
         PlayClickSound();
 
-        StartCoroutine(nameof(WaitBeforeExecuteMethod));
+        //StartCoroutine(nameof(WaitBeforeExecuteMethod));
 
         UnityEngine.SceneManagement.SceneManager.LoadScene(nextSceneName);
     }
 
-    IEnumerator WaitBeforeExecuteMethod()
-    {
-        yield return new WaitForSeconds(1.5f);
-    }
+    //IEnumerator WaitBeforeExecuteMethod()
+    //{
+    //    yield return new WaitForSeconds(1.5f);
+    //}
 
     private void PlayClickSound()
     {
@@ -37,7 +37,7 @@ public class SceneManager : MonoBehaviour
     public void OnExitGame()
     {
         PlayClickSound();
-        StartCoroutine(WaitBeforeExecuteMethod());
+        //StartCoroutine(WaitBeforeExecuteMethod());
 
         Application.Quit();
     }
