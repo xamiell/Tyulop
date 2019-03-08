@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4926747305355182373}
   - component: {fileID: 4926747305355182372}
   m_Layer: 0
-  m_Name: SceneLoader
+  m_Name: Scene Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,3 +44,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextSceneName: ArenaScene
+  audioClick: {fileID: 8300000, guid: c5b018b330463d946a2f6b239cd99ccf, type: 3}
+  musicBackground: {fileID: 0}
