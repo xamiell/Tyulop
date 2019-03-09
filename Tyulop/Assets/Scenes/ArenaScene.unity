@@ -501,6 +501,7 @@ MonoBehaviour:
   - {fileID: 1234411243}
   - {fileID: 458998003}
   - {fileID: 1067895719}
+  enemy: {fileID: 0}
   speedMovement: 9.99
 --- !u!212 &931950661
 SpriteRenderer:
@@ -793,7 +794,7 @@ GameObject:
   - component: {fileID: 1805402358}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
