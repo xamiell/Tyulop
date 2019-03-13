@@ -20,10 +20,10 @@ public class Navy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Move();
+        OrbitAnim();
     }
 
-    private void Move()
+    private void OrbitAnim()
     {
         if (moveCount <= wayPoints.Count)
         {
